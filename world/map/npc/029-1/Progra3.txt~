@@ -26,7 +26,7 @@ L_Daniela:
   goto L_Close;
 
 L_Nexer:
-	warp "p3-72.gat", 36, 138;
+	warp "p3-72.gat", 36, 137;
   goto L_Close;
 
 L_David:

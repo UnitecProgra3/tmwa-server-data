@@ -1,0 +1,18 @@
+// Talk NPCs to help make trek interesting between Tutorial and Bazaar.
+
+p3-72,60,135,0|script|Guardia|113
+{
+    setarray @npc_loc, 62, 96, 4;
+    mes "Hola, desea Salir de las arenas?";
+    menu
+        "Si", L_Si,
+        "No gracias.",L_Close;
+
+L_Si:
+	delitem 571,1;
+	warp "p3-72.gat", 51, 139;
+	goto L_Close;
+
+L_Close:
+    close;
+}
