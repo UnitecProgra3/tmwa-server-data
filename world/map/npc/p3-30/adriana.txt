@@ -1,0 +1,38 @@
+// part of quest given by 021-2/kylian.txt
+// Author: Jenalya
+
+// state 1: player has the task to get the luggage from the harbor
+// state 2: Adrian gave the luggage to the player
+// state 3: player gave luggage to Kylian and Kylian asks who to talk to for the shop license
+
+p3-30,126,120,0|script|adriana|404
+{
+	//mes para mostrar
+	//menu para opciones
+		//menu "", funcion;
+	//goto para ir a funciones
+	//L_Descripcion
+	mes "Hola, Bienvenido a las islas p3-30, deseas saber de nuestra historia?";
+	menu
+		"Claro", L_Claro,
+		"No", L_No,
+		"Adios", L_Adios;
+		
+L_Adios:
+		mes "Ok nos vemos";
+		goto L_Close;
+
+L_Claro:	
+		mes"Grandioso bueno nuestra historia comenzo muchos años atras cuando un gran heroe";
+		mes"Vino a estas tierras a vencer una temible bestia llamada Xicterio que era como una especie de mezcla";
+		mes"Entre dragon y humano nuestro heroe una vez mato a la bestia se vino a instalar a estas islas como recordatorio";
+		mes"de su gran asaña y con el vino mas gente solo por saber su grandiosa historia sobre la batalla que el tuvo con Xictero";
+		goto L_Close;
+L_No:
+		mes"Ok aqui estare si quieres saber de nuestra historia";
+		goto L_Close;
+
+L_Close:
+		close;
+
+}
