@@ -1,0 +1,53 @@
+// part of quest given by 021-2/kylian.txt
+// Author: Jenalya
+
+// state 1: player has the task to get the luggage from the harbor
+// state 2: Adrian gave the luggage to the player
+// state 3: player gave luggage to Kylian and Kylian asks who to talk to for the shop license
+
+p3-30,126,112,0|script|marco|213
+{
+	//mes para mostrar
+	//menu para opciones
+		//menu "", funcion;
+	//goto para ir a funciones
+	//L_Descripcion
+	mes "Hola, Como estas?";
+	menu
+		"Bien", L_Bien,
+		"Mal", L_Mal,
+		"Adios", L_Adios;
+		
+
+L_Bien:
+		mes "A que bien";
+		mes "Se un truco para regreses cerca de tu portal";
+		mes "Deseas Regresar?";
+		menu 
+			"Claro", L_Claro,
+			"No", L_No;
+
+L_Mal:
+		mes "A que mal, puedo ayudarte a sentir mejor";
+		mes "mostrandote un truco para llevarte cerca de tu portal";
+		
+		menu
+			"Claro", L_Claro,
+			"No", L_No;
+
+L_Adios:
+		mes "Cheke pues";
+		goto L_Close;
+
+L_Claro:	
+		mes"Vamos Pues";
+		warp "p3-30", 58, 60;
+		goto L_Close;
+L_No:
+		mes"Ok aqui estare si me necesitas";
+		goto L_Close;
+
+L_Close:
+		close;
+
+}
