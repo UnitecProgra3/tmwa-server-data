@@ -46,7 +46,7 @@ L_Ricardo:
   goto L_Close;
 
 L_Jose:
-	warp "p3-30.gat", 100, 100;
+	warp "p3-30.gat", 58, 60;
   goto L_Close;
 
 L_Rafael:
