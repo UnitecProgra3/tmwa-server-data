@@ -1,9 +1,93 @@
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
 // Tulimshar Port mobs
 
+p3-76,113,47,17,14|monster|Fallen|1045,1,1000ms,3000ms,Mobp3-76::On1045
+p3-76,130,29,15,15|monster|BanditLord|1065,8,1000ms,30000ms,Mobp3-76::On1065
+p3-76,7,69,16,20|monster|BanditLord|1065,8,1000ms,30000ms,Mobp3-76::On1065
+p3-76,63,5,28,11|monster|BanditLord|1065,8,1000ms,30000ms,Mobp3-76::On1065
+p3-76,47,74,31,32|monster|RedScorpion|1004,5,1000ms,30000ms,Mobp3-76::On1004
+p3-76,46,72,16,20|monster|BlackScorpion|1009,3,1000ms,30000ms,Mobp3-76::On1009
+p3-76,134,46,14,9|monster|RedScorpion|1004,5,1000ms,30000ms,Mobp3-76::On1004
+p3-76,53,103,43,4|monster|SeaSlime|1033,10,1000ms,30000ms,Mobp3-76::On1033
+p3-76,130,5,13,10|monster|Swashbuckler|1120,1,1000ms,30000ms,Mobp3-76::On1120
+p3-76,68,53,138,107|monster|Reaper|1068,1,2000ms,30000ms,Mobp3-76::On1068
+p3-76,63,39,11,16|monster|Thug|1119,3,1000ms,30000ms,Mobp3-76::On1119
+p3-76,90,63,18,4|monster|Thug|1119,3,1000ms,30000ms,Mobp3-76::On1119
+p3-76,98,11,24,14|monster|SeaSlime|1033,10,1000ms,30000ms,Mobp3-76::On1033
+p3-76,101,96,11,9|monster|Fallen|1045,1,1000ms,3000ms,Mobp3-76::On1045
+p3-76,113,47,19,15|monster|GeneralKrukan|1127,1,1000ms,30000ms,Mobp3-76::On1127
+p3-76,18,28,19,11|monster|GeneralRazha|1128,1,1000ms,30000ms,Mobp3-76::On1128
+p3-76,108,48,8,14|monster|TipsySkeleton|1078,3,1000ms,30000ms,Mobp3-76::On1078
+p3-76,119,48,8,14|monster|DrunkenSkeleton|1077,2,1000ms,30000ms,Mobp3-76::On1077
+p3-76,121,127,14,9|monster|DreadPirateMarley|1122,5,1000ms,30000ms,Mobp3-76::On1122
 
 
 p3-76,0,0,0|script|Mobp3-76|-1
 {
+    end;
+
+On1004:
+    set @mobID, 1004;
+    callfunc "MobPoints";
+    end;
+
+On1009:
+    set @mobID, 1009;
+    callfunc "MobPoints";
+    end;
+
+On1033:
+    set @mobID, 1033;
+    callfunc "MobPoints";
+    end;
+
+On1045:
+    set @mobID, 1045;
+    callfunc "MobPoints";
+    end;
+
+On1065:
+    set @mobID, 1065;
+    callfunc "MobPoints";
+    end;
+
+On1068:
+    set @mobID, 1068;
+    callfunc "MobPoints";
+    end;
+
+On1077:
+    set @mobID, 1077;
+    callfunc "MobPoints";
+    end;
+
+On1078:
+    set @mobID, 1078;
+    callfunc "MobPoints";
+    end;
+
+On1119:
+    set @mobID, 1119;
+    callfunc "MobPoints";
+    end;
+
+On1120:
+    set @mobID, 1120;
+    callfunc "MobPoints";
+    end;
+
+On1122:
+    set @mobID, 1122;
+    callfunc "MobPoints";
+    end;
+
+On1127:
+    set @mobID, 1127;
+    callfunc "MobPoints";
+    end;
+
+On1128:
+    set @mobID, 1128;
+    callfunc "MobPoints";
     end;
 }
