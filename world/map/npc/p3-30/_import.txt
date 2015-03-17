@@ -3,3 +3,5 @@
 map: p3-30
 npc: npc/p3-30/_mobs.txt
 npc: npc/p3-30/_warps.txt
+npc: npc/p3-30/adriana.txt
+npc: npc/p3-30/marco.txt
