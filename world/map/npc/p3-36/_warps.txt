@@ -1,3 +1,5 @@
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
 // Tulimshar Port warps
 
+p3-36,62,128|warp|To Other Map#p3-360|3,-1,029-1,22,92
+p3-36,55,16|warp|To Other Map#p3-361|0,0,029-1,22,92
