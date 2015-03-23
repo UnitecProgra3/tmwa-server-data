@@ -1,0 +1,19 @@
+// Talk NPCs to help make trek interesting between Tutorial and Bazaar.
+
+p3-49-2,30,26,0|script|Progra3|205
+{
+    setarray @npc_loc, 62, 96, 4;
+    mes "Hola quieres regresar al mapa inicial?";
+    menu
+        "Si",L_Daniela,
+        "No, Gracias.",L_Close;
+
+
+L_Daniela:
+	warp "029-1.gat", 49, 93;
+  goto L_Close;
+
+
+L_Close:
+    close;
+}
