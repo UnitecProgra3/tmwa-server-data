@@ -1,4 +1,4 @@
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
-// Tulimshar Port warps
+// Islands P3-30 warps
 
 p3-30,56,57|warp|To Other Map#p3-300|-1,-1,029-1,22,92
