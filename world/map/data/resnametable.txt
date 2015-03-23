@@ -104,6 +104,9 @@ botcheck#botcheck.wlk#
 p3-26#p3-26.wlk#
 p3-29#p3-29.wlk#
 p3-30#p3-30.wlk#
+p3-302#p3-302.wlk#
+p3-303#p3-303.wlk#
+p3-304#p3-304.wlk#
 p3-36#p3-36.wlk#
 p3-40#p3-40.wlk#
 p3-46#p3-46.wlk#
