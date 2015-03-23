@@ -1,0 +1,32 @@
+// Barrels
+// Author: Wushin
+// Npc
+p3-76,48,73,0|script|Zegas|165
+{
+    setarray @npc_loc, 48, 73, 2;
+
+mes "Hola";
+menu
+	"Informacion",L_Info,
+	"Salir del Mapa",L_Salir,
+	"Adios!",L_Close;
+
+L_Range:
+    message strcharinfo(0), "Venite mas Cerca";
+    goto L_Close;
+
+L_Info:
+	mes "\"Trabajo Hecho por David Chavarria -21341276- ";
+	mes "Para Clase de Programacion III \"";
+	mes "\"Incluye: ";
+	mes "-Warps, Spawns y Colisiones.\"";
+	mes "-Tambien un arma llamada Death Scythe (id 1623) \"";
+	goto L_Close;
+	
+
+L_Salir:
+	warp "029-1.gat", 53, 96;
+	goto L_Close;
+L_Close:
+	close;
+}

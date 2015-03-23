@@ -1,0 +1,24 @@
+// Talk NPCs to help make trek interesting between Tutorial and Bazaar.
+
+p3-72,51,138,0|script|Mayor|103
+{
+    setarray @npc_loc, 62, 96, 4;
+    mes "Hola, bienvenido a las arenas de batallas, aqui, podras probarte con distintos mounstruos sin importar tu nivel, le entras (100 monedas para entrar)?";
+    menu
+        "Si", L_Si,
+        "No gracias.",L_Close;
+
+L_Si:
+	gmcommand "@zeny -100";
+	warp "p3-72.gat", 61, 136;
+	goto L_Item;
+
+L_Item:
+	mes "Esta bien, te prestaremos esta arma BastardSword, al salir de las arenas, se nos devolvera, Si deseas salir, busca un guardia, Suerte!";
+	getitem Setzer,1;
+	close;
+
+L_Close:
+	delitem 588,1;
+    close;
+}

@@ -1,0 +1,27 @@
+// Talk NPCs to help make trek interesting between Tutorial and Bazaar.
+
+p3-72,8,6,0|script|Guardia|113
+{
+    setarray @npc_loc, 62, 96, 4;
+    goto L_Menu;
+
+L_Menu:
+	mes "Hola, Que deseas?";
+	menu
+ 	       	"Salir de las Arenas", L_Salir,
+		"Recuperar Vida", L_Vidas,
+       		"Nada.",L_Close;
+
+L_Salir:
+	delitem 571,1;
+	warp "p3-72.gat", 51, 139;
+	goto L_Close;
+
+L_Vidas:
+	heal 100,0;
+	mes "Has recuperado 100 puntos de vida";
+	goto L_Menu;
+
+L_Close:
+    close;
+}
