@@ -1,5 +1,10 @@
 // Map p3-72: Tulimshar Port
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
 map: p3-72
+npc: npc/p3-72/Guardia.txt
+npc: npc/p3-72/Guardia1.txt
+npc: npc/p3-72/GuardiaCasa.txt
+npc: npc/p3-72/Hotelero.txt
+npc: npc/p3-72/Mayor.txt
 npc: npc/p3-72/_mobs.txt
 npc: npc/p3-72/_warps.txt

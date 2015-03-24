@@ -1,9 +1,5 @@
+// Map p3-302: Tulimshar Port
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
-// Islands P3-30 mobs
-
-
-
-p3-30,0,0,0|script|Mobp3-30|-1
-{
-    end;
-}
+map: p3-302
+npc: npc/p3-302/_mobs.txt
+npc: npc/p3-302/_warps.txt

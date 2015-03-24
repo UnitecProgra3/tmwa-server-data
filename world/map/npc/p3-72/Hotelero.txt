@@ -1,0 +1,11 @@
+// Talk NPCs to help make trek interesting between Tutorial and Bazaar.
+
+p3-72,90,10,0|script|Hotelero|113
+{
+    setarray @npc_loc, 62, 96, 4;
+    mes "Hola, bienvenido al Hotel de las arenas, aqui puedes descansar y comer, Suerte!";
+    goto L_CLose;
+
+L_Close:
+    close;
+}

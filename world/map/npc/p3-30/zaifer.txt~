@@ -1,0 +1,39 @@
+// part of quest given by 021-2/kylian.txt
+// Author: Jenalya
+
+// state 1: player has the task to get the luggage from the harbor
+// state 2: Adrian gave the luggage to the player
+// state 3: player gave luggage to Kylian and Kylian asks who to talk to for the shop license
+
+p3-30,126,130,0|script|zaifer|404
+{
+	//mes para mostrar
+	//menu para opciones
+		//menu "", funcion;
+	//goto para ir a funciones
+	//L_Descripcion
+	mes "Hola desconocido te puedo dar algo para tu inventario si asi lo deseas?";
+	menu
+		"Claro", L_Claro,
+		"No", L_No,
+		"Adios", L_Adios;
+		
+L_Adios:
+		mes "Ok nos vemos";
+		goto L_Close;
+
+L_Claro:	
+		mes"Muy bien bueno que tipo que deseas";
+		menu		
+		"Armadura", L_Armadura,
+		"Espada", L_Espada,
+		"Escudo", L_Escudo;
+		
+L_No:
+		mes"Ok aqui estare si quieres saber de nuestra historia";
+		goto L_Close;
+
+L_Close:
+		close;
+
+}

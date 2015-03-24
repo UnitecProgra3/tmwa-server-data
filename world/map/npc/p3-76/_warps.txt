@@ -1,3 +1,7 @@
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
 // Tulimshar Port warps
 
+p3-76,123,88|warp|To The Fallen#p3-760|-1,-1,p3-76,27,30
+p3-76,31,29|warp|Back from The F#p3-761|2,5,p3-76,125,93
+p3-76,107,98|warp|To Dock#p3-762|0,1,p3-76,108,128
+p3-76,131,126|warp|From Dock#p3-763|0,1,p3-76,105,99

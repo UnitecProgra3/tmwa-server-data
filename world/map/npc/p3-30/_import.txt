@@ -1,5 +1,7 @@
-// Map p3-30: Tulimshar Port
+// Map p3-30: Islands P3-30
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
 map: p3-30
 npc: npc/p3-30/_mobs.txt
 npc: npc/p3-30/_warps.txt
+npc: npc/p3-30/adriana.txt
+npc: npc/p3-30/marco.txt

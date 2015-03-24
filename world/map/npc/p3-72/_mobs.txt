@@ -1,9 +1,45 @@
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
 // Tulimshar Port mobs
 
+p3-72,14,78,31,23|monster|Scorpion|1003,15,100000ms,30000ms,Mobp3-72::On1003
+p3-72,122,115,31,23|monster|AngryScorpion|1057,10,100000ms,30000ms,Mobp3-72::On1057
+p3-72,124,79,31,23|monster|Wolvern|1090,5,100000ms,30000ms,Mobp3-72::On1090
+p3-72,16,114,31,23|monster|Moggun|1061,10,100000ms,30000ms,Mobp3-72::On1061
+p3-72,51,114,31,23|monster|EvilMushroom|1013,10,100000ms,30000ms,Mobp3-72::On1013
+p3-72,86,114,31,23|monster|Skeleton|1043,10,100000ms,30000ms,Mobp3-72::On1043
 
 
 p3-72,0,0,0|script|Mobp3-72|-1
 {
+    end;
+
+On1003:
+    set @mobID, 1003;
+    callfunc "MobPoints";
+    end;
+
+On1013:
+    set @mobID, 1013;
+    callfunc "MobPoints";
+    end;
+
+On1043:
+    set @mobID, 1043;
+    callfunc "MobPoints";
+    end;
+
+On1057:
+    set @mobID, 1057;
+    callfunc "MobPoints";
+    end;
+
+On1061:
+    set @mobID, 1061;
+    callfunc "MobPoints";
+    end;
+
+On1090:
+    set @mobID, 1090;
+    callfunc "MobPoints";
     end;
 }
