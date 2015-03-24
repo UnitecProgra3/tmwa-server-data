@@ -1,10 +1,16 @@
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
 // Tulimshar Port mobs
 
-p3-36,0,0,0,0|monster|Butterfly|1055,45,30ms,20ms,Mobp3-36::On1055
+p3-36,0,0,0,0|monster|Butterfly|1055,55,30ms,20ms,Mobp3-36::On1055
 p3-36,85,65,56,50|monster|Squirrel|1038,30,30ms,20ms,Mobp3-36::On1038
 p3-36,125,12,0,0|monster|Snake|1010,5,100000ms,30000ms,Mobp3-36::On1010
 p3-36,87,126,25,7|monster|Scorpion|1003,10,100000ms,30000ms,Mobp3-36::On1003
+p3-36,10,20,20,41|monster|BanditLord|1065,8,1000ms,30000ms,Mobp3-36::On1065
+p3-36,136,24,19,27|monster|Fallen|1045,1,1000ms,3000ms,Mobp3-36::On1045
+p3-36,42,138,0,0|monster|SeaSlime|1033,10,1000ms,30000ms,Mobp3-36::On1033
+p3-36,138,132,0,0|monster|Swashbuckler|1120,1,1000ms,30000ms,Mobp3-36::On1120
+p3-36,20,122,40,32|monster|BanditLord|1065,8,1000ms,30000ms,Mobp3-36::On1065
+p3-36,0,55,0,0|monster|RedScorpion|1004,5,1000ms,30000ms,Mobp3-36::On1004
 
 
 p3-36,0,0,0|script|Mobp3-36|-1
@@ -16,8 +22,18 @@ On1003:
     callfunc "MobPoints";
     end;
 
+On1004:
+    set @mobID, 1004;
+    callfunc "MobPoints";
+    end;
+
 On1010:
     set @mobID, 1010;
+    callfunc "MobPoints";
+    end;
+
+On1033:
+    set @mobID, 1033;
     callfunc "MobPoints";
     end;
 
@@ -26,8 +42,23 @@ On1038:
     callfunc "MobPoints";
     end;
 
+On1045:
+    set @mobID, 1045;
+    callfunc "MobPoints";
+    end;
+
 On1055:
     set @mobID, 1055;
+    callfunc "MobPoints";
+    end;
+
+On1065:
+    set @mobID, 1065;
+    callfunc "MobPoints";
+    end;
+
+On1120:
+    set @mobID, 1120;
     callfunc "MobPoints";
     end;
 }

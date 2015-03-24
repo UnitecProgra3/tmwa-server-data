@@ -1,0 +1,5 @@
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+// Five Lands warps
+
+p3-303,16,13|warp|Go to p3-30#p3-3030|-1,-1,p3-30,76,130
+p3-303,121,8|warp|To the cave#p3-3031|-1,-1,p3-304,97,18

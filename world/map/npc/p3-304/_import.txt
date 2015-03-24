@@ -1,0 +1,5 @@
+// Map p3-304: Scorpion Cave
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+map: p3-304
+npc: npc/p3-304/_mobs.txt
+npc: npc/p3-304/_warps.txt
