@@ -1,0 +1,23 @@
+// Talk NPCs to help make trek interesting between Tutorial and Bazaar.
+
+p3-40,53,114,0|script|Lulu|205
+{
+    setarray @npc_loc, 53, 114, 4;
+    mes "Hola,Yo soy tu guia.";
+	mes "A donde quieres ir?";
+	menu
+        "Isla 1",L_mapa1,
+        "Isla 2",L_mapa2,
+        "No quiero nada.",L_Close;
+
+L_mapa1:
+	warp "p3-40.gat", 18, 109;
+  goto L_Close;
+
+L_mapa2:
+	warp "p3-40.gat", 73, 107;
+  goto L_Close;
+
+L_Close:
+    close;
+}

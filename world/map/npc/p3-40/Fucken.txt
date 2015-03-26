@@ -1,0 +1,48 @@
+// Fucken
+// Author: Carlos
+// Npc
+p3-40,117,99,0|script|Fuckencio|777
+{
+    setarray @npc_loc, 117, 99, 3;
+    callfunc "PCtoNPCRange";
+    if (@npc_check)
+        goto L_Range;
+    goto L_Start;
+
+L_Start:
+    mes "[Trolencio]";
+    mes "\"Que ves?";
+    mes " Queres pelear?";
+    menu
+        "Venga, no te tengo miedo.",L_Tut,
+        "ta loco, pelee con los arboles.",L_Close;
+
+L_Tut:
+    mes "[se asusta].";
+    mes "[Trolencio]";
+    mes "\"Nah, era broma.\"";
+    mes "\"Yo soy tu amigo.\"";
+    menu
+		"Cheque pues",L_Bye,
+		"Que broma ni que nada, peleemos.",L_Discutir;
+
+L_Discutir:
+    mes "[Trolencio]";
+    mes "\"Hey no te precipites, era solo una broma.";
+    mes "No lo vuelvo a hacer";
+    menu
+		"ok,mas te vale.",L_Bye;
+	
+L_Bye:
+    mes "[Trolencio]";
+    mes "\"Cheque pues.\"";
+    goto L_Close;
+		
+
+L_Range:
+    message strcharinfo(0), "Estoy enojado.";
+    goto L_Close;
+
+L_Close:
+    close;
+}

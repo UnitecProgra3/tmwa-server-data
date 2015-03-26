@@ -1,0 +1,47 @@
+// Talk NPCs to help make trek interesting between Tutorial and Bazaar.
+
+p3-40,109,98,0|script|Guardian|778
+{
+    setarray @npc_loc, 109, 98, 4;
+	callfunc "PCtoNPCRange";
+    if (@npc_check)
+        goto L_Range;
+    goto L_Start;
+
+L_Start:
+	mes "[Guardian]";
+    mes "Hola soy el guardian del templo!";
+    mes "Si quieres entrar debes adivinar este acertijo!";
+	menu
+        "Esta bien,dimelo.",L_Acertijo,
+        "Nah,que hueva.",L_Close;
+
+L_Acertijo:
+	mes "[Guardian]";
+    mes "Ines y Juan hicieron un extranio acuerdo. Ines miente los miercoles, jueves y viernes";
+    mes "pero dice la verdad el resto de la semana. Juan miente los domingos,lunes y martes";
+	mes "pero dice la verdad en todos los otros dias. Cierto dia ambos dijeron:";
+	mes "\"Maniana es dia de mentir.\"";
+	mes "En que dia dijeron esto?";
+	menu
+        "Lunes",L_RespuestaMala,
+        "Martes",L_RespuestaBuena,
+		"Miercoles",L_RespuestaMala;
+	
+L_RespuestaMala:
+	mes "Te equivocaste, no puedes entrar";
+  goto L_Close;
+
+L_RespuestaBuena:
+	mes "[Guardian]";
+	mes "Bien hecho! Ya puedes entrar";
+	warp "017-2.gat", 26, 69;
+  goto L_Close;
+
+L_Range:
+    message strcharinfo(0), "Acercate si quieres entrar.";
+    goto L_Close;
+
+L_Close:
+    close;
+}

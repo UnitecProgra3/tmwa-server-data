@@ -1,0 +1,100 @@
+// Aahna
+// Author: Wushin
+// Npc
+p3-40,119,90,0|script|Laura|404
+{
+    setarray @npc_loc, 119, 90, 3;
+    callfunc "PCtoNPCRange";
+    if (@npc_check)
+        goto L_Range;
+    goto L_Start;
+
+L_Start:
+    mes "[Laura]";
+    mes "\"Hola, estoy un poco sola";
+    mes "Quieres hablar conmigo?";
+    menu
+        "ok, hablemos.",L_Tut,
+        "No, no friegue",L_Close;
+
+L_Tut:
+    mes "te sonrie.";
+    mes "[Laura]";
+    mes "\"No quisiera aburrirte mucho, pero en realidad si necesitaba hablar con alguien.\"";
+    mes "\"He tenido problemas ultimamente y nadie me ha brindado su ayuda.\"";
+    mes "\"Eso me tiene muy triste.\"";
+    menu
+		"Y tus amigos?",L_Amigos,
+		"Puedes contarme a mi si quieres.",L_Escuchar;
+
+L_Amigos:
+    mes "[Laura]";
+    mes "\"La mayoria andan en una mision por tierras lejanas y no puedo hablar con ellos.";
+    mes "Y los que me quedan no se han preocupado por mi  ultimamente ";
+    menu
+		"Oh que mal",L_QueMal,
+		"Puedes hacerte nuevos amigos",L_NewFriends;
+
+L_NewFriends:
+    mes "[Laura]";
+    mes "\"Eso hare, aunque eso no significa que seran mejores amigos que los que tengo.\"";
+    mes "\"Pero siempre vale la pena tener nuevos amigos.\"";
+    menu
+		"Yo sere tu nuevo amigo.",L_ManaAmigo,
+		"Asi se habla.",L_Bye;
+
+L_ManaAmigo:
+    mes "[Laura]";
+    mes "\"Gracias, ya eres mi nuevo amigo.\"";
+    goto L_Bye;
+
+L_QueMal:
+    mes "[Laura]";
+    mes "\"No te quito mas tu tiempo, veo que vas apurado.\"";
+    goto L_Bye;
+	
+L_Escuchar:
+    mes "[Laura]";
+    mes "\"Es que he tenido problemas con mi familia, soy parte de la realeza.\"";
+    mes "\"Y pues todavia no se como resolverlos.\"";
+    mes "\"Necesito consejo.\"";
+    menu
+		"No soy buen consejero, pero si quieres te doy uno.",L_Consejo,
+		"Te daria un consejo pero ya no tengo tiempo.",L_Bye;
+
+L_Consejo:
+    mes "[Laura]";
+    mes "\"ok, me gustaria\"";
+    menu
+        "Lo mejor seria que te fueras lejos",L_R1,
+        "Habla con tus padres",L_R2;
+
+L_R1:
+	mes "Nunca,mejor vayase a la chingada";
+	goto L_Close;
+	
+L_R2:
+    mes "claro, eso hare";
+    goto L_Bye;
+
+L_SkipTut:
+    mes "[Laura]";
+    mes "\"ok pues\"";
+	mes "Seguro?";
+    menu
+        "Que siii ombe!",L_Close,
+        "ok pues la escucho.",L_Tut;
+
+L_Bye:
+    mes "[Laura]";
+    mes "\"Gracias por escucharme.\"";
+    goto L_Close;
+		
+
+L_Range:
+    message strcharinfo(0), "Estoy triste.";
+    goto L_Close;
+
+L_Close:
+    close;
+}

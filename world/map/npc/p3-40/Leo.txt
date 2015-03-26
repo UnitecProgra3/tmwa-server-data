@@ -1,0 +1,44 @@
+// Talk NPCs to help make trek interesting between Tutorial and Bazaar.
+
+p3-40,83,52,0|script|Leo|779
+{
+    setarray @npc_loc, 83, 52, 4;
+	callfunc "PCtoNPCRange";
+    if (@npc_check)
+        goto L_Range;
+    goto L_Start;
+
+L_Start:
+	mes "[Leo]";
+    mes "Que onda!";
+    mes "Esta muy seco por aqui, verdad?";
+	menu
+        "Si, demasiado.",L_Acertijo,
+        "No me interesa.",L_Close;
+
+L_Acertijo:
+	mes "[Leo]";
+    mes "Hace mucho que no cae una llovizna en esta isla";
+    mes "dicen que es una maldicion que para los ex habitantes de este lugar";
+	mes "pero eso a mi me tiene sin importancia";
+	menu
+        "Bueno, suerte con la maldicion",L_M,
+        "Pues vete a las otras islas",L_RespuestaBuena;
+
+L_M:
+	mes "ok, gracias.";
+  goto L_Close;
+
+L_RespuestaBuena:
+	mes "[Leo]";
+	mes "Nah, aqui me quedare un rato.";
+	
+  goto L_Close;
+
+L_Range:
+    message strcharinfo(0), "Hey, tienes algo de tomar.";
+   goto L_Close;
+
+L_Close:
+    close;
+}
