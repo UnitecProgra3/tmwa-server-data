@@ -1,3 +1,11 @@
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
 // Tulimshar Port warps
 
+p3-72,61,133|warp|Inside1#p3-720|-1,-1,p3-72,91,10
+p3-72,36,137|warp|to 029-1#p3-721|-1,-1,029-1,54,92
+p3-72,78,2|warp|Out#p3-722|-1,-1,p3-72,62,126
+p3-72,79,2|warp|Out2#p3-723|-1,-1,p3-72,62,126
+p3-72,91,11|warp|Out23#p3-724|-1,-1,p3-72,61,135
+p3-72,62,133|warp|Inside2#p3-725|-1,-1,p3-72,91,10
+p3-72,64,78|warp|Out23#p3-726|-1,-1,p3-72,7,9
+p3-72,7,10|warp|Out23#p3-727|-1,-1,p3-72,64,79

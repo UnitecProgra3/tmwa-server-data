@@ -1,0 +1,4 @@
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+// Scorpion Cave warps
+
+p3-304,96,15|warp|To Out Cave#p3-3040|-1,-1,p3-303,121,10
