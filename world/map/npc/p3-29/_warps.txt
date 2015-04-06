@@ -1,3 +1,8 @@
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
-// Tulimshar Port warps
+// Woodland warps
 
+p3-29,126,28|warp|To Woodland Hil#p3-290|-1,1,p3-29,75,45
+p3-29,17,14|warp|To Woodland Hil#p3-291|-1,1,p3-29,75,45
+p3-29,128,27|warp|To Woodland Hil#p3-292|-1,1,p3-29,75,45
+p3-29,126,23|warp|To Woodland Hil#p3-293|-1,1,p3-29,75,45
+p3-29,11,110|warp|To Woodland Hil#p3-294|-1,1,p3-29,75,45

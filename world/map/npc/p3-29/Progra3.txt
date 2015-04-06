@@ -1,0 +1,27 @@
+// Talk NPCs to help make trek interesting between Tutorial and Bazaar.
+
+p3-29,75,47,0|script|Trainer|205
+{
+    setarray @npc_loc, 62, 96, 4;
+    mes "Donde quieres entrenar?"; 
+    menu
+        "Era del hielo ",L_Hielo,
+        "Crypt",L_Crypt,
+        "Graveyard",L_Graveyard,
+        "No quiero nada.",L_Close;
+
+L_Hielo:
+	warp "p3-29.gat", 10, 109;
+  goto L_Close;
+
+L_Crypt:
+	warp "p3-29.gat", 146, 12;
+  goto L_Close;
+
+L_Graveyard:
+	warp "p3-29.gat", 21, 16;
+  goto L_Close;
+
+L_Close:
+    close;
+}
