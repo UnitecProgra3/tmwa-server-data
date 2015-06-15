@@ -8,7 +8,7 @@ p3-40,79,46,10,3|monster|Scorpion|1003,2,100000ms,30000ms,Mobp3-40::On1003
 p3-40,76,56,15,3|monster|Snake|1010,1,100000ms,30000ms,Mobp3-40::On1010
 
 
-p3-40,0,0,0|script|Mobp3-40|-1
+p3-40,0,0,0|script|Mobp3-40|32767
 {
     end;
 

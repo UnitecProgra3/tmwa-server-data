@@ -9,7 +9,7 @@ p3-72,51,114,31,23|monster|EvilMushroom|1013,10,100000ms,30000ms,Mobp3-72::On101
 p3-72,86,114,31,23|monster|Skeleton|1043,10,100000ms,30000ms,Mobp3-72::On1043
 
 
-p3-72,0,0,0|script|Mobp3-72|-1
+p3-72,0,0,0|script|Mobp3-72|32767
 {
     end;
 

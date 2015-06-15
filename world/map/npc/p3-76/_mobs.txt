@@ -22,7 +22,7 @@ p3-76,119,48,8,14|monster|DrunkenSkeleton|1077,2,1000ms,30000ms,Mobp3-76::On1077
 p3-76,121,127,14,9|monster|DreadPirateMarley|1122,5,1000ms,30000ms,Mobp3-76::On1122
 
 
-p3-76,0,0,0|script|Mobp3-76|-1
+p3-76,0,0,0|script|Mobp3-76|32767
 {
     end;
 

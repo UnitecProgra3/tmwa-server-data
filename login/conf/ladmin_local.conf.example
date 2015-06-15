@@ -8,4 +8,4 @@ login_port: 6901
 // Administrative password, used to connect remotely to server.
 // NOTICE: You should change its value for security.
 // This is also in login_local.conf
-admin_pass: admin
+admin_pass: ejemplo

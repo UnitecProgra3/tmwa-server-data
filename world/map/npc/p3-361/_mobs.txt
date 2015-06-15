@@ -9,7 +9,7 @@ p3-361,128,110,18,57|monster|BanditLord|1065,5,1000ms,30000ms,Mobp3-361::On1065
 p3-361,13,124,0,0|monster|SeaSlime|1033,10,1000ms,30000ms,Mobp3-361::On1033
 
 
-p3-361,0,0,0|script|Mobp3-361|-1
+p3-361,0,0,0|script|Mobp3-361|32767
 {
     end;
 

@@ -1,0 +1,9 @@
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+// Tulimshar Port mobs
+
+
+
+p3-277,0,0,0|script|Mobp3-277|32767
+{
+    end;
+}

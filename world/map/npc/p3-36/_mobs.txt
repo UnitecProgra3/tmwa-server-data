@@ -13,7 +13,7 @@ p3-36,20,122,40,32|monster|BanditLord|1065,8,1000ms,30000ms,Mobp3-36::On1065
 p3-36,0,55,0,0|monster|RedScorpion|1004,5,1000ms,30000ms,Mobp3-36::On1004
 
 
-p3-36,0,0,0|script|Mobp3-36|-1
+p3-36,0,0,0|script|Mobp3-36|32767
 {
     end;
 
