@@ -103,7 +103,17 @@ import: npc/055-3/_import.txt
 import: npc/056-2/_import.txt
 import: npc/057-1/_import.txt
 import: npc/botcheck/_import.txt
+import: npc/p3-022/_import.txt
+import: npc/p3-050/_import.txt
+import: npc/p3-065/_import.txt
+import: npc/p3-084/_import.txt
+import: npc/p3-087/_import.txt
+import: npc/p3-099/_import.txt
+import: npc/p3-127/_import.txt
+import: npc/p3-165/_import.txt
+import: npc/p3-246/_import.txt
 import: npc/p3-26/_import.txt
+import: npc/p3-277/_import.txt
 import: npc/p3-29/_import.txt
 import: npc/p3-30/_import.txt
 import: npc/p3-302/_import.txt

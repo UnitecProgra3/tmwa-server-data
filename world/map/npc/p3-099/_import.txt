@@ -1,0 +1,5 @@
+// Map p3-099: Tulimshar Port
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+map: p3-099
+npc: npc/p3-099/_mobs.txt
+npc: npc/p3-099/_warps.txt

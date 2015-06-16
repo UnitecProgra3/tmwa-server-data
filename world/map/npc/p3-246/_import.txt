@@ -1,0 +1,5 @@
+// Map p3-246: Tulimshar Port
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+map: p3-246
+npc: npc/p3-246/_mobs.txt
+npc: npc/p3-246/_warps.txt
