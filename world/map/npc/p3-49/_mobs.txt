@@ -8,7 +8,7 @@ p3-49,23,91,30,25|monster|Maggot|1002,12,100000ms,30000ms,Mobp3-49::On1002
 p3-49,74,63,66,33|monster|ManaBug|1131,20,30ms,0ms,Mobp3-49::On1131
 
 
-p3-49,0,0,0|script|Mobp3-49|-1
+p3-49,0,0,0|script|Mobp3-49|32767
 {
     end;
 
