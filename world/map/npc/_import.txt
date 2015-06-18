@@ -111,7 +111,6 @@ import: npc/p3-087/_import.txt
 import: npc/p3-099/_import.txt
 import: npc/p3-127/_import.txt
 import: npc/p3-165/_import.txt
-import: npc/p3-246/_import.txt
 import: npc/p3-26/_import.txt
 import: npc/p3-277/_import.txt
 import: npc/p3-29/_import.txt
