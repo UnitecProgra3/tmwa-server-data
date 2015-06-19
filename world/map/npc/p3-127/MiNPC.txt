@@ -1,5 +1,19 @@
-p3-127,5,5,0|script|MiNPC|205
+p3-127,26,19,0|script|MiNPC|780
 {
-	mes "Hola Mundo";
+	mes "Hola quieres ir a la otra casa??";
+	menu 
+	"si",si,
+	"no",no;
+
+	si:
+	mes "Adios";
+	warp "p3-127",35,46;
+	close;
+
+	no:
+	mes "Ahh ok, yo pense que querias ";
+	next;
+	mes "Adios";
 	close;
 }
+
