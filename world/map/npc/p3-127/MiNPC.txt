@@ -1,0 +1,5 @@
+p3-127,5,5,0|script|MiNPC|205
+{
+	mes "Hola Mundo";
+	close;
+}
