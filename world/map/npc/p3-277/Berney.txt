@@ -1,0 +1,39 @@
+p3-277,103,113,0|script|Berney|205
+{
+    setarray @npc_loc, 62, 96, 4;
+    mes "Hola que deseas hacer hoy?";
+    menu
+        "Enfrentar mi destino y ser un maestro Pokemon",L_Pokemon,
+		"Ir a la arena de Batalla",L_aBatalla,
+		"Regresar de nuevo a casa Extraño a mi mami",L_aCasa,
+        "Dare una vuelta para pensar mejor las cosas",L_Close;
+
+L_Pokemon:
+	mes "Te equivocastes de juego amigo";
+  goto L_Close;
+
+L_aBatalla:
+	mes "Estas seguro?";
+    menu
+        "Si",L_Si,
+		"No",L_No;
+
+	L_Si:
+	warp "p3-277.gat", 22, 28;
+	mes "Buena suerte amigo porque la necesitaras";
+  	goto L_Close;
+	
+	L_No:
+	mes "*cof* Gallina *cof*";
+    close;
+
+
+L_aCasa:
+	warp "029-1.gat", 50, 93;
+	mes "Hasta la vista Baby(Leer con acento de Terminator)";
+  goto L_Close;
+
+L_Close:
+    close;
+}
+
