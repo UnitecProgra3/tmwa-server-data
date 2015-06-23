@@ -1,6 +1,0 @@
-p3-277,50,50,0|script|MiKevNPC|205
-{
- mes "Hola Mundo";
- close;
-
-}

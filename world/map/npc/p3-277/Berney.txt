@@ -1,4 +1,4 @@
-p3-277,103,113,0|script|Berney|205
+p3-277,103,113,0|script|Berney|277
 {
     setarray @npc_loc, 62, 96, 4;
     mes "Hola que deseas hacer hoy?";
