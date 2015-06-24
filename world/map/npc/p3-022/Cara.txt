@@ -1,0 +1,20 @@
+// Talk NPCs to help make trek interesting between Tutorial and Bazaar.
+
+p3-022,31,26,0|script|Cara|022
+{
+   mes "Queres resgresar a tu hogar?";
+	menu 
+	"si",si,
+	"no",no;
+
+	si:
+	mes "OK";
+	warp "p3-127",36,40;
+	close;
+
+	no:
+	mes "Volve cuando queras";
+	next;
+	mes "Adios";
+	close;
+}

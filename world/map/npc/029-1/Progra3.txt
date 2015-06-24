@@ -51,7 +51,7 @@ L_Luis_Isaula:
   goto L_Close;
 
 L_Martin_Mayorquin:
-	warp "p3-022.gat", 100, 100;
+	warp "p3-022.gat", 32, 33;
   goto L_Close;
 
 L_Dennis_Menjivar:

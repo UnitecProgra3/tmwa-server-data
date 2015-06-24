@@ -1,3 +1,6 @@
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
 // Tulimshar Port warps
 
+p3-022,55,20|warp|deRegreso#p3-0220|0,-1,029-1,51,93
+p3-022,33,20|warp|ASanAndreas#p3-0221|0,-1,p3-022,33,30
+p3-022,42,11|warp|aqui#p3-0222|-1,-1,029-1,56,92
