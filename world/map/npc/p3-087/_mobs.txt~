@@ -1,15 +1,15 @@
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
 // Tulimshar Port mobs
 
-p3-087,42,14,2,4|monster|ReyExanime|1140,2,100000ms,30000ms,Mobp3-087::On1140
+p3-087,42,14,2,4|monster|ReyExanime|1134,2,100000ms,30000ms,Mobp3-087::On1134
 
 
 p3-087,0,0,0|script|Mobp3-087|32767
 {
     end;
 
-On1140:
-    set @mobID, 1140;
+On1134:
+    set @mobID, 1134;
     callfunc "MobPoints";
     end;
 }

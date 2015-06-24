@@ -1,5 +1,6 @@
 // Map p3-087: Tulimshar Port
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
 map: p3-087
+npc: npc/p3-087/NpcRicardo.txt
 npc: npc/p3-087/_mobs.txt
 npc: npc/p3-087/_warps.txt

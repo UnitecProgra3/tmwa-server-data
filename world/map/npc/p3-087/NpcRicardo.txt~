@@ -1,0 +1,25 @@
+p3-087,29,25,0|script|Ricardx|900
+{
+	mes "Hola";
+	menu 
+	"Deseas ir a la puerta de entrada",R_Entrada,
+	"Deseas ir al NPC Progra3",R_Npc,
+	"No Deseo nada", R_No;
+
+	R_Entrada:
+	mes "Buena Suerte Camarada";
+	warp "p3-087",33,132;
+	goto R_No;
+
+	R_Npc:
+	mes "Con este NPC puedes ir a los demas mapas";
+	warp "029-1",50,90; 
+	goto R_No;
+
+
+	R_No:
+	next;
+	mes "Que la Suerte te Acompañe, Adios";
+	close;
+}
+
