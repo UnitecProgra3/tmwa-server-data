@@ -1,6 +1,6 @@
 // Talk NPCs to help make trek interesting between Tutorial and Bazaar.
 
-p3-022,31,26,0|script|Cara|022
+p3-022,31,26,0|script|Cara|785
 {
    mes "Queres resgresar a tu hogar?";
 	menu 
@@ -9,7 +9,7 @@ p3-022,31,26,0|script|Cara|022
 
 	si:
 	mes "OK";
-	warp "p3-127",36,40;
+	warp "029-1",32,101;
 	close;
 
 	no:
