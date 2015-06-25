@@ -2,3 +2,4 @@
 // Tulimshar Port warps
 
 p3-127,33,20|warp|To Origin Map#p3-1270|0,-1,029-1,51,93
+p3-127,35,44|warp|Castle#p3-1271|-1,-1,p3-127,33,30

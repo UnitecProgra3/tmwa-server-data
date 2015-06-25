@@ -1,10 +1,10 @@
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
 // Tulimshar Port mobs
 
-p3-277,21,19,31,20|monster|Kevinstein|1134,8,100000ms,30000ms,Mobp3-277::On1134
+p3-087,42,14,2,4|monster|ReyExanime|1134,2,100000ms,30000ms,Mobp3-087::On1134
 
 
-p3-277,0,0,0|script|Mobp3-277|32767
+p3-087,0,0,0|script|Mobp3-087|32767
 {
     end;
 

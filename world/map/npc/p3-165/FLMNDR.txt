@@ -1,0 +1,19 @@
+p3-165,14,124,0|script|FLMNDR|783
+{
+mes "hola me llamo FLMNDR";
+mes "Quieres Volver con Ximunako?";
+menu
+	"si",si,
+	"no",no;
+
+si:
+	mes "Saluda a Ximunako de mi parte!";
+	warp "p3-165",52,90;
+	close;
+
+no:
+	mes "Adios";
+	close;
+
+close;
+}

@@ -1,3 +1,7 @@
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
 // Tulimshar Port warps
 
+p3-277,98,109|warp|aColiseo1#p3-2770|-1,0,p3-277,22,28
+p3-277,112,108|warp|aColiseo2#p3-2771|-1,0,p3-277,22,28
+p3-277,105,108|warp|aCasa#p3-2772|-1,0,029-1,50,93
+p3-277,37,29|warp|aCasa2#p3-2773|0,0,p3-277,90,120
