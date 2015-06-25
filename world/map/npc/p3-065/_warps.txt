@@ -1,3 +1,5 @@
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
-// Tulimshar Port warps
+// Scorpion Cave warps
 
+p3-065,96,15|warp|To Out Cave#p3-0650|-1,-1,p3-303,121,10
+p3-065,59,69|warp|Go Home#p3-0651|-1,0,029-1,56,78

@@ -1,0 +1,5 @@
+p3-065,55,72,0|script|Sponge|800
+{
+	mes "Ten cuidado con Plankton!!";
+	close;
+}
