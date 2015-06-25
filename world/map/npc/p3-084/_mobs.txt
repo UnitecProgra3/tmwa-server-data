@@ -1,7 +1,7 @@
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
 // Tulimshar Port mobs
 
-p3-084,39,14,18,7|monster|Patito|1150,5,30ms,0ms,Mobp3-084::On1150
+p3-084,39,14,18,7|monster|firetrt|1150,5,30ms,0ms,Mobp3-084::On1150
 
 
 p3-084,0,0,0|script|Mobp3-084|32767
