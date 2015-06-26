@@ -1,3 +1,5 @@
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
 // Tulimshar Port warps
 
+p3-087,33,20|warp|Home#p3-0870|0,-1,029-1,45,93
+p3-087,33,127|warp|Go to Castle#p3-0871|-1,-1,p3-087,33,30

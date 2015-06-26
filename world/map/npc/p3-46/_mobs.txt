@@ -1,9 +1,15 @@
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
 // Tulimshar Port mobs
 
+p3-46,23,128,44,13|monster|chamucoimvoque|1147,8,100000ms,30000ms,Mobp3-46::On1147
 
 
 p3-46,0,0,0|script|Mobp3-46|32767
 {
+    end;
+
+On1147:
+    set @mobID, 1147;
+    callfunc "MobPoints";
     end;
 }

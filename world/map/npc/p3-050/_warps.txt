@@ -1,3 +1,4 @@
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
 // Tulimshar Port warps
 
+p3-050,10,12|warp|Go to Arena#p3-0500|1,0,p3-050,110,110

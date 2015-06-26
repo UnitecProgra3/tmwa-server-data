@@ -3,3 +3,4 @@
 map: p3-361
 npc: npc/p3-361/_mobs.txt
 npc: npc/p3-361/_warps.txt
+npc: npc/p3-361/fido.txt
