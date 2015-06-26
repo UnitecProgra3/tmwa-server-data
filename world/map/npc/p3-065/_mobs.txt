@@ -1,9 +1,15 @@
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
-// Tulimshar Port mobs
+// Scorpion Cave mobs
 
+p3-065,73,70,13,5|monster|Plankton|1180,3,100000ms,30000ms,Mobp3-065::On1180
 
 
 p3-065,0,0,0|script|Mobp3-065|32767
 {
+    end;
+
+On1180:
+    set @mobID, 1180;
+    callfunc "MobPoints";
     end;
 }

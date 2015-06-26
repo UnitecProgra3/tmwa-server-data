@@ -1,0 +1,23 @@
+p3-065,55,72,0|script|Sponge|800
+{
+	mes "Hola Amigo! ¿Qué Deseas?";
+	menu
+	"¿Deseas regresar a Progra3?",C_npc,
+	"¿Deseas salir de la fortaleza?",C_salida,
+	"Nada",C_nada;
+
+	C_npc:
+	mes "Nos vemos amigo!";
+	warp "029-1", 33,132;
+	goto C_nada;
+	
+	C_salida:
+	mes "Te veo luego!";
+	warp "p3-065", 60,91;
+	goto C_nada;
+
+	C_nada:
+	next;
+	mes "Cualquier cosa, me avisas!";
+	close;
+}

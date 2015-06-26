@@ -43,7 +43,7 @@ L_Carlos_Haddad:
   goto L_Close;
 
 L_Jaime_Hernandez:
-	warp "p3-246.gat", 100, 100;
+	warp "p3-46.gat", 12, 20;
   goto L_Close;
 
 L_Luis_Isaula:

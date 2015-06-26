@@ -1,5 +1,6 @@
-// Map p3-065: Tulimshar Port
+// Map p3-065: Scorpion Cave
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
 map: p3-065
 npc: npc/p3-065/_mobs.txt
 npc: npc/p3-065/_warps.txt
+npc: npc/p3-065/npcCarlos.txt
