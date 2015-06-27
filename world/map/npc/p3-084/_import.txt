@@ -3,3 +3,4 @@
 map: p3-084
 npc: npc/p3-084/_mobs.txt
 npc: npc/p3-084/_warps.txt
+npc: npc/p3-084/elber.txt
