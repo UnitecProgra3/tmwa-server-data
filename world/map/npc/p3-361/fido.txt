@@ -1,4 +1,4 @@
-p3-361,20,16,0|script|fido|781
+p3-361,20,16,0|script|fido|278
 {
     setarray @npc_loc, 62, 96, 4;
     mes "Hi, Escoje una opcion";
