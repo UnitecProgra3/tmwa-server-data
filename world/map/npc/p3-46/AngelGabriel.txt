@@ -5,15 +5,15 @@ p3-46,21,5,0|script|AngelGabriel|046
     menu
         "descansar y ahorrar energia",L_descansar,
 		"ir al laberinto",L_Laberinto,
-		"viajar a mi hogar",L_hogar,
+		"viajar a mi hogar",L_hogar;
         
 
 L_descansar:
 	mes "Bien hecho amigo lo necesitaras";
   goto L_Close;
 
-L_aBatalla:
-	mes "estas listo?tienes muchas batallas por delante";
+L_Laberinto:
+	mes "estas listo? tienes muchas batallas por delante";
     menu
         "Si",L_Si,
 	"No",L_No;
@@ -25,12 +25,12 @@ L_aBatalla:
 	
 	L_No:
 	mes "eres un cobarde o muy listo para arrepentirte";
-    close;
+        close;
 
 
-L_aCasa:
+L_hogar:
 	warp "p3-46-1.gat", 12, 16;
-	mes "hogar, dulce hogar";
+	mes "hogar dulce hogar";
   goto L_Close;
 
 L_Close:

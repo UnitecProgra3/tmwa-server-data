@@ -1,0 +1,38 @@
+p3-361,20,16,0|script|fido|278
+{
+    setarray @npc_loc, 62, 96, 4;
+    mes "Hi, Escoje una opcion";
+    menu
+        "Sorpresa 1",L_Sorpresa1,
+		"Sorpresa 2",L_Sorpresa2,
+		"Sorpresa 3",L_Sorpresa3,
+        "No quiero Sorpresas",L_Close;
+
+L_Sorpresa1:
+	mes "Intenta de nuevo";
+  goto L_Close;
+
+L_Sorpresa2:
+	mes "Te has ganado un viaje de regreso a casa, aceptas?";
+    menu
+        "Si",L_Si,
+		"No",L_No;
+
+	L_Si:
+	warp "029-1.gat", 50, 93;
+	mes "Buen viaje";
+  	goto L_Close;
+	
+	L_No:
+	mes "Tu te lo pierdes";
+    close;
+
+
+L_Sorpresa3:
+	mes "Te ganaste un holaaaaaaaa";
+  goto L_Close;
+
+L_Close:
+    close;
+}
+
