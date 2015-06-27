@@ -1,0 +1,26 @@
+p3-084,17,11,0|script|elber|084
+{
+    setarray @npc_loc, 62, 96, 4;
+    mes "Hola conoces a elber gallarga?";
+    menu
+        "Quieres ver mi talento",L_song,
+        "No nada",L_Close;
+
+L_song:
+	mes "Quieres escuchar una cancion?";
+    menu
+        "Si",L_Si,
+		"No",L_No;
+
+	L_Si:
+	mes "Nananananananananana Batman";
+  	goto L_Close;
+	
+	L_No:
+	mes "Tu te lo pierdes";
+    close;
+
+L_Close:
+    close;
+}
+
